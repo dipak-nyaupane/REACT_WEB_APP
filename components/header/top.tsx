@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './Header.module.scss';
-// import {MdSecurity} from 'react-icons/md';
+import {MdSecurity} from 'react-icons/md';
+import { FcAlarmClock } from 'react-icons/fc';
 export default function Top() {
     return (
         <div className="{styles.top}">
@@ -10,10 +11,11 @@ export default function Top() {
                     <li>
                         <img src="https://picsum.photos/id/237/200/300" alt=""
                         />
-                        <span>Nepal / NPR</span>
+                        <span>Nepal / NPR 100</span>
                     </li>
                     <li>
-                        {/* <MdSecurity /> */}
+                        <MdSecurity />
+                        <FcAlarmClock />
                         <span>Buyer Protection</span>
                     </li>
                 </ul>
