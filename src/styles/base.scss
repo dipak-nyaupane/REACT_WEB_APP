@@ -1,4 +1,33 @@
 $red-color:red;
+$blue-color:#2f82ff;
+$gray-color:#f8f8f8;
 $shadow-1:rgba(99,99,99,.2) 0px 2px 0px;
+.btn_primary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: $blue-color;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    border-radius:4px;
+    border: none;
+    height: 30px;
+}
+.btn_outlined{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background:$gray-color;
+    color: $blue-color;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    border-radius:4px;
+    border: none;
+    height: 30px;
 
+}
 

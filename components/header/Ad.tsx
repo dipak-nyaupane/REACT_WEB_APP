@@ -7,6 +7,7 @@ export default function Ad() {
       return (
             <Link href="/browse">
                   <div className={styles.code}>
+                        <div className={styles.moving_bg}></div>
                   </div>
             </Link>
       );
