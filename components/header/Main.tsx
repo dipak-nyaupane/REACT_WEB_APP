@@ -7,7 +7,7 @@ export default function main() {
     <div className={styles.main}>
       <div className={styles.main__container}></div>
     <Link href="/">
-      <a  className={styles.logo}></a>
+       {/* <a  className={styles.logo}></a> */}
     </Link>
     </div>
   )
